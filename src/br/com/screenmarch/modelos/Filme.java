@@ -1,4 +1,4 @@
-package aluraScreenMatch;
+package br.com.screenmarch.modelos;
 
 public class Filme {
 	private String nome;
@@ -7,7 +7,6 @@ public class Filme {
 	private double somaDasAvaliacoes;
 	private int totalDeAvaliacoes;
 	private int duracaoEmMinutos;
-	
 
 	public String getNome() {
 		return nome;

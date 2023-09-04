@@ -1,5 +1,7 @@
 package aluraScreenMatch;
 
+import br.com.screenmarch.modelos.Filme;
+
 public class Principal {
 	public static void main(String[] args) {
 		Filme filme1 = new Filme();
