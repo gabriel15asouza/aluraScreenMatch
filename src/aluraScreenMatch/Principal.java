@@ -3,10 +3,10 @@ package aluraScreenMatch;
 public class Principal {
 	public static void main(String[] args) {
 		Filme filme1 = new Filme();
-		filme1.nome = "Um sonho de liberdade";
-		filme1.anoDeLancamento = 1994;
-		filme1.duracaoEmMinutos = 144;
-		filme1.incluidoNoPlano = true;
+		filme1.setNome("Um sonho de liberdade");
+		filme1.setAnoDeLancamento(1994);
+		filme1.setDuracaoEmMinutos(144);
+		filme1.setIncluidoNoPlano(true);
 		
 		filme1.exibeFichaTecnica();
 		filme1.avalia(9);
